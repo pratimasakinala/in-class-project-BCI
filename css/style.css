@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Flat');
+
+/* Universal */
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+}
+
+li {
+	width: 70px;
+	display: inline-block;
+}
+
+.font-amatic {
+	font-family: 'Amatic SC', cursive;
+}
+
+.font-nova {
+	font-family: 'Nova Flat', cursive;
+}
+
+.font-weight-900 {
+	font-weight: 900;
+}
+
+.font-weight-300 {
+	font-weight: 300;
+}
+
+.line-height {
+	line-height: 10px;
+}
+
+.line-spacing {
+	letter-spacing: 2px;
+}
+/* Universal ends*/
+
+/* Header */
+.main-nav {
+	background-color: #d3d3c9;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.nav-links {
+	margin-right: 20px;
+}
+
+.logo {
+	height: 55px;
+}
+
+.link {
+	color: purple;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: red;
+	text-shadow: 0 0 3px green;
+}
+/* Header ends*/
+
+/* Hero */
+.hero {
+	height: 700px;
+	background-image: url(../images/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 15px;
+	text-align: center;
+	position: relative;
+}
+
+.hero-content {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 600px;
+	padding: 15px;
+	color: #fff;
+	/*margin: auto;*/
+	/*margin-top: 300px;*/
+	position: absolute;
+	top: 45%;
+	left: 30%;
+	/*border-radius: 50%;*/
+	/*border-top-left-radius: 25px;*/
+	/*border-top-right-radius: 25px;*/
+	border-radius: 25px 25px 0 25px;
+}
+/* Hero ends*/
+
+/* Content */
+.content {
+	padding: 50px;
+}
+
+.center {
+	text-align: center;
+}
+
+.text-upper {
+	text-transform: uppercase;
+}
+
+.text-justified {
+	text-align: justify;
+}
+
+.columns {
+	padding: 10px 0;
+	position: relative;
+	height: 390px;
+}
+
+.column1 {
+	width: 45%;
+	position: relative;
+	height: 250px;
+}
+
+.column1-image {
+	height: 100%;
+	position: absolute;
+	top: 25%;
+}
+
+.column2 {
+	width: 45%;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+/* Content ends*/
+
+/* Footer */
+.footer {
+	background-color: #d3d3c9;
+	/*position: relative;*/
+	padding: 15px;
+}
+
+.social-media {
+	/*position: absolute;*/
+	/*left: 40%;*/
+}
+
+.social-media-items {
+    float: none;
+    text-align: center;
+    padding: 0;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.fa:hover {
+	color: brown;	
+}
+
+.fa-facebook-official {
+	color: #334f8d;
+}
+
+.fa-twitter-square {
+	color: #00b9f6;
+}
+
+/* Footer ends*/
